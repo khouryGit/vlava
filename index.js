@@ -2,7 +2,7 @@
 
 var _ServicesContainer = document.getElementById('ServicesContainer');
 
-fetch('https://vlavaapi20230715.onrender.com/services')
+fetch('https://vlavawebtemplate.onrender.com')
       .then(response => response.json())
       .then(json => {
         for (let i = 0; i < json.length; i++) {               
